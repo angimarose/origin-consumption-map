@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coffee Origins | Domestic Consumption</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    
+    <link href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" rel="stylesheet">
+        <!-- Load Leaflet library -->
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
+   
+
+     <!-- Load leafletSlider -->
+    <title>jQuery UI Slider - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#slider" ).slider();
+  } );
+  </script>
+
+    <!--
+    <div id="slider" class="leaflet-slider"></div>
+    
+    <!-- Load our styles -->
+    <link href="./styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="map"></div>
+    <div class="title">
+      A Cup At Origin
+    </div>
+    <div class="right-sidebar">
+      <div class="overlay">   
+        <p class="issue-intro">
+          The global trading price for green coffee is in the doldrums. On September 17, 2018, the price for one pound of coffee reached a 12-year low 
+          of 93.45 cents. 
+          </p>    
+          <p class="issue-producers"> 
+          For producers, these global prices oftentimes don't even come close to covering the costs of production. 
+          So instead of marketing their crop for international export (where the price is determined by the low market), supply chain actors in producing countries look 
+          to <strong>domestic consumption</strong> for the demand needed to sell their crop.
+          </p> 
+          <p class="issue-directions">
+            Click around the map to see how domestic consumption of coffee producing countries has changed since 2001. You can also use the dropdown menu below.
+          </p>
+           <!--
+            <select class="country-picker">
+              <option value="">Select Origin</option>
+              <option value="Angola">Angola</option>
+              <option value="Benin">Benin</option>
+              <option value="Bolivia">Bolivia</option>
+              <option value="Brazil">Brazil</option>
+              <option value="Burundi">Burundi</option>
+              <option value="Cameroon">Cameroon</option>
+              <option value="Central African Republic">Central African Republic</option>
+              <option value="Colombia">Colombia</option>
+              <option value="Costa-rica">Costa Rica</option>
+              <option value="Cote d'Ivoire">Cote d'Ivoire</option>
+              <option value="Cuba">Cuba</option>
+              <option value="Democratic Republic of Congo">Democratic Republic of Congo</option>
+              <option value="Dominican Republic">Dominican Republic</option>
+              <option value="Ecuador">Ecuador</option>
+              <option value="El Salvador">El Salvador</option>
+              <option value="Equatorial Guinea">Equatorial Guinea</option>
+              <option value="Ethiopia">Ethiopia</option>
+              <option value="Gabon">Gabon</option>
+              <option value="Ghana">Ghana</option>
+              <option value="Guatemala">Guatemala</option>
+              <option value="Guinea">Guinea</option>
+              <option value="Guyana">Guyana</option>
+              <option value="Haiti">Haiti</option>
+              <option value="Honduras">Honduras</option>
+              <option value="India">India</option>
+              <option value="Indonesia">Indonesia</option>
+              <option value="Jamaica">Jamaica</option>
+              <option value="Kenya">Kenya</option>
+              <option value="Lao">Lao</option>
+              <option value="Liberia">Liberia</option>
+              <option value="Madagascar">Madagascar</option>
+              <option value="Malawi">Malawi</option>
+              <option value="Mexico">Mexico</option>
+              <option value="Nepal">Nepal</option>
+              <option value="Nicaragua">Nicaragua</option>
+              <option value="Nigeria">Nigeria</option>
+              <option value="Paraguay">Paraguay</option>
+              <option value="Peru">Peru</option>
+              <option value="Philippines">Philippines</option>
+              <option value="Republic of Congo">Republic of Congo</option>
+              <option value="Rwanda">Rwanda</option>
+              <option value="Sierra Leone">Sierra Leone</option>
+              <option value="Sri Lanka">Sri Lanka</option>
+              <option value="Tanzania">Tanzania</option>
+              <option value="Thailand">Thailand</option>
+              <option value="Timor-Leste">Timor-Leste</option>
+              <option value="Togo">Togo</option>
+              <option value="Trinidad & Tobago">Trinidad & Tobago</option>
+              <option value="Venezuela">Venezuela</option>
+              <option value="Vietnam">Vietnam</option>
+              <option value="Yemen">Yemen</option>
+              <option value="Zambia">Zambia</option>
+              <option value="Zimbabwe">Zimbabwe</option>
+        </select>
+        -->
+          <p class="sub-heading">
+            Per Capita Consumption Change
+          </p>
+          <p class="sub-heading">
+            2001-2017
+          </p>
+          <div class="origin-content"></div>
+          <div class="attribution-overlay">
+             Data from: 
+            <p class="data-attribution-ico">
+              International Coffee Organization - <a href="http://www.ico.org/new_historical.asp" target="_blank">Historical Data on the Global Coffee Trade</a>
+            </p>
+             <p class="data-attribution-un">
+              United Nations - <a href="https://population.un.org/wpp/" target="_blanck">World Population Prospects 2017</a>
+            </p>
+          </div>
+      </div>    
+    </div>
+
+     
+    
+      <!-- Mustache Sidebar -->
+      <script class="popup-template" type="x-tmpl-mustache">
+        <div>
+          <div class="mustache-name"> Country: {{country_name}}</div>
+          <div class="mustache-change">{{change}}%</div>
+        </div>
+      </script>
+    
+   
+
+
+    
+    <!-- Load Promises polyfill -->
+    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script>
+    
+    <!-- Load Fetch polyfill -->
+    <script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.4/fetch.js"></script>
+    
+     <!-- import the Mustache library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.0/mustache.min.js"></script>
+    
+    <!-- Load our JavaScript -->
+    <script src="./script.js"></script>
+  </body>
+</html>

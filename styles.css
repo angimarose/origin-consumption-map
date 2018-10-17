@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  
+}
+.overlay {
+  margin: auto;
+  width: 100%;
+}
+
+.right-sidebar {
+  position: fixed;
+  right: 0;
+  width: 25%;
+  height: 95%;
+  border: 2px solid white;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #fee08b;
+  z-index: 10000;
+  opacity: 0.75; 
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  box-shadow: 5px 5px 25px -6px rgba(217,217,217,1);
+}
+
+.title {
+  font-family: Impact;
+  font-size: 50px;
+  text-align: center;
+  background-color: #fee08b;
+  z-index: 10000;
+  opacity: 0.75; 
+  width: 320px;
+  height: 70px;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 5px 5px 25px -6px rgba(217,217,217,1);
+}
+
+.sidebar-heading {
+  font-family: Helvetica;
+  font-size: 25px;
+  padding: 1px;
+  font-weight: bold;
+  text-align: center;
+  color: black; 
+  margin: 5px;
+}
+
+.issue-intro {
+  font-family: Impact;
+  font-size: 17px;
+  padding: 1px;
+  margin: 2px; 
+  line-height: 1.5;
+  text-align: center;
+}
+.issue-producers {
+  font-family: Helvetica;
+  font-size: 13px;
+  padding: 1px;
+  margin: 2px;
+  line-height: 1.5;
+}
+
+.issue-directions{
+  font-family: Helvetica;
+  font-size: 13px;
+  padding: 5px;
+  padding-top: 10px;
+  margin: 3px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.country-picker {
+  font-family: Helvetica;
+  font-size: 10px;
+  background-color: white;
+  display: block;
+  margin: auto;
+  padding: 5px;
+  
+}
+.origin-content{
+  text-align: center;
+  font-family: Impact;
+  font-size: 16px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.sub-heading{
+  text-align: center;
+  font-family: Impact;
+  font-size: 15px;
+  margin: 1px;
+  padding: 5px;
+}
+
+.mustache-name {
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+}
+
+.mustache-change {
+  font-family: Helvetica, sans-serif;
+}
+
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+.attribution-overlay {
+  position: absolute;
+  bottom: 0px; 
+  margin: 5px;
+  padding: 1px;
+  font-size: 10px;
+  font-family: Arial;
+}
+
+.data-attribution-ico {
+  font-size: 8px;
+  font-family: Helvetica;
+  padding: 1px;
+  margin: 1px;
+}
+
+.data-attribution-un {
+  font-size: 8px;
+  font-family: Helvetica;
+  padding: 1px;
+  margin: 1px;
+}
+  
+  
