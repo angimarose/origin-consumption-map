@@ -1,3 +1,3 @@
-# leaflet-data
+# origin-consumption-map
 
-Create a Leaflet map with a basemap and overlay data
+A map designed to display the change in consumption in coffee producing countries from 2001-2017
