@@ -1,2 +1,3 @@
-# origin-consumption-map
-This is a map that displays the change in domestic consumption of coffee in producing countries. 
+# leaflet-data
+
+Create a Leaflet map with a basemap and overlay data
